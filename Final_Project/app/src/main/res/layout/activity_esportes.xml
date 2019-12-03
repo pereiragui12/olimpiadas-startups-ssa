@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EsportesActivity">
+
+
+    <TextView
+        android:id="@+id/choose_sport"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Qual Esporte?"
+        android:textSize="30dp"
+        android:layout_marginTop="48dp"
+        android:fontFamily="@font/montserrat_bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/btn_soccer"
+        android:layout_width="320dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="38dp"
+        android:text="@string/soccer"
+        android:textColor="@color/colorGreen"
+        android:fontFamily="@font/montserrat_bold"
+        android:background="@color/colorGreenOp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/choose_sport"/>
+
+    <Button
+        android:id="@+id/btn_volei"
+        android:layout_width="320dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/volei"
+        android:textColor="@color/colorGreen"
+        android:fontFamily="@font/montserrat_bold"
+        android:background="@color/colorGreenOp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_soccer"/>
+
+    <Button
+        android:id="@+id/btn_basquete"
+        android:layout_width="320dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/basquete"
+        android:textColor="@color/colorGreen"
+        android:fontFamily="@font/montserrat_bold"
+        android:background="@color/colorGreenOp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_volei"/>
+
+    <Button
+        android:id="@+id/btn_table_tenis"
+        android:layout_width="320dp"
+        android:layout_height="53dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/table_tenis"
+        android:textColor="@color/colorGreen"
+        android:fontFamily="@font/montserrat_bold"
+        android:background="@color/colorGreenOp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_basquete"/>
+
+    <TextView
+        android:id="@+id/msg_more"
+        android:layout_width="219dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/montserrat_bold"
+        android:text="@string/msg_more"
+        android:textSize="16sp"
+        android:layout_marginTop="80dp"
+        android:gravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.51"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_table_tenis" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

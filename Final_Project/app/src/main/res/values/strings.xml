@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Final_Project</string>
+    <string name="soccer">Futebol</string>
+    <string name="volei">Vôlei</string>
+    <string name="basquete">Basquete</string>
+    <string name="table_tenis">Tênis de Mesa</string>
+    <string name="msg_more">Em breve mais esportes...</string>
+    <string name="placar">Placar</string>
+    <string name="time_1">Time 1</string>
+    <string name="time_2">Time 2</string>
+    <string name="continuar">Continuar</string>
+</resources>
